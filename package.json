@@ -1,0 +1,21 @@
+{
+  "name": "nightwatchLearning",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "selenium-server": "^2.47.1",
+    "nightwatch": "^0.8.3"
+  },
+  "scripts": {
+    "test": "nightwatch -e firefox,chrome"
+  },
+  "author": "",
+  "license": "ISC"
+}
